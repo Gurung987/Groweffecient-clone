@@ -1,0 +1,94 @@
+
+/* Basic resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #0070BA;
+  color: white;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  margin-top: 50px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #0070BA;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.send-btn {
+  background-color: #0070BA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background-color: #005fa3;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f3f4f6;
+}
+
+footer p {
+  color: #0070BA;
+}
+
+/* Success tick animation */
+.tick-animation {
+  display: none;
+  margin-top: 20px;
+}
+
+.tick-animation .checkmark {
+  font-size: 3rem;
+  color: green;
+}
